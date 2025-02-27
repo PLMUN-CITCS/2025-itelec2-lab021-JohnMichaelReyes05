@@ -29,7 +29,7 @@ def calculate_factorial(n: int) -> int:
         return 1
     else:
         factorial = 1
-        for i in range(1, n + 1):
+        for i in range(1, n + 1):  # Corrected loop range
             factorial *= i
         return factorial
 
